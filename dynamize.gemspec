@@ -8,10 +8,11 @@ Gem::Specification.new do |s|
   s.email       = 'dayvsonlima31@gmail.com'
   s.files       = [
                     'config/initializers/dynamize.rb',
-                    'lib/tasks/migrate.rake'
+                    'lib/tasks/migrate.rake',
+                    'init.rb'
                   ]
 
-  s.homepage    = 'https://klicksiteqa.atlassian.net/wiki/display/IGDDNKLICKPAGES/'
+  s.homepage    = 'https://github.com/dayvsonlima/dynamize'
   s.license     = 'MIT'
 
   s.add_dependency 'aws-sdk', '~>2'
