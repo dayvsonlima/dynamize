@@ -3,7 +3,7 @@ require 'rails'
 module Dynamize
   class Railtie < Rails::Railtie
     rake_tasks do
-      require 'lib/tasks/migrate.rake'
+      require '../tasks/migrate.rake'
     end
   end
 end
