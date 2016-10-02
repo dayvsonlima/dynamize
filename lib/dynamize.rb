@@ -26,9 +26,4 @@ module Dynamize
     path: "#{Rails.root}/migrations", # the full path to the folder where your migration classes will live
     migration_table_name: 'migrations' # optional, the name of the table to use for migrations, default is "migrations"
   }
-
-  DynamoDB::Migration.run_all_migrations(DYNAMODB_OPTIONS)
-
-  # basic rake loader
-  Dir["lib/tasks/**/*.rake"].each { |ext| load ext } if defined?(Rake)
 end
