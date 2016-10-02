@@ -1,4 +1,4 @@
-require 'your_gem'
+require 'dynamize'
 require 'rails'
 module Dynamize
   class Railtie < Rails::Railtie
