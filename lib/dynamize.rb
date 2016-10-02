@@ -1,6 +1,6 @@
 require 'aws-sdk'
 require 'dynamoid'
-require 'dynamodb-migration'
+require 'dynamodb/migration'
 
 module Dynamize
   require "lib/dynamize/railtie" if defined?(Rails)
