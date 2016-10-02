@@ -1,0 +1,9 @@
+require 'your_gem'
+require 'rails'
+module Dynamize
+  class Railtie < Rails::Railtie
+    rake_tasks do
+      require 'lib/tasks/migrate.rake'
+    end
+  end
+end
