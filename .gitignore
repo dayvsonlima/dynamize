@@ -1,0 +1,6 @@
+.DS_Store
+.bundle
+.ruby-gemset
+.ruby-version
+Gemfile.lock
+*.gem
