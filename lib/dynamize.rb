@@ -3,7 +3,7 @@ require 'dynamoid'
 require 'dynamodb/migration'
 
 module Dynamize
-  require 'dynamize/railtie' if defined?(Rails)
+  require 'dynamize/railtie' if defined?(Rails::Railtie)
 
   Dynamoid.configure do |config|
     config.adapter = 'aws_sdk_v2' # This adapter establishes a connection to the DynamoDB servers using Amazon's own AWS gem.
