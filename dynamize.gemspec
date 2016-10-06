@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'aws-sdk', '~>2'
   s.add_dependency 'dynamoid', '~> 1'
-  s.add_dependency 'rails', '~> 4'
+  s.add_dependency 'railties', '~> 4'
   s.add_dependency 'dynamodb-migration', '~> 0'
 end
