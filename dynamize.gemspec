@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.files       = [
                     'config/initializers/dynamize.rb',
                     'lib/tasks/migrate.rake',
+                    'lib/padrino-gen/migration.rb'
                     'init.rb'
                   ]
 
